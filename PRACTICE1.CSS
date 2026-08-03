@@ -1,0 +1,33 @@
+#div{
+    
+    color: black;
+    background-color: red;
+    text-decoration: line-through;
+}
+.heading{
+    background-color: yellow;
+    color:red;
+}
+BUTTON{
+    background-color: rgb(244, 115, 136);
+    color: red;
+}
+p1{
+    text-align: left;
+    
+    font-weight: bolder;
+}
+a{
+    text-decoration: blue wavy line-through;
+    font-weight: 900;
+}
+p2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+p3{
+    font-size: 78px;
+}
+p4{
+    line-height: 48px;
+    text-transform: capitalize;
+}
