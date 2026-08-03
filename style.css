@@ -1,68 +1,11 @@
-h1{
-        color:teal;
-    }
-p1{
-        color:green;
-    }
-button{
-    color:cadetblue;
-    background-color: orange;
+body {
+    background-color: pink;
 }
 
-body{
-    background-color: rgb(205, 38, 180);
+#heading{
+    color: blue;
+    background-color: #ffff00;
 }
-  
-.myclass{
-    color:red;
-}
-
-.random{
-    background-color: yellow;
-    color:red;
-}
-div1{
-    text-align: center;
-}
-.myclass{
-    text-align: center;
-}
-h1 , p1 {
-    text-align: right;
-}
-
-#heading2{
-    color: orange;
-}
-#heading3{
-
- background-color: red;
-}
-#my1{
-    background-color: orange;
-
-}
-#my2{
-    background-color: aqua;
-}
-#my3{
-    background-color: brown;
-}
-div{
-    margin-bottom: 0px;
-    display: inline-block;
-    width: 100px;
-
-}
-#my1{
-    margin: 100px;
-    height: 100px;
-}
-#my2{
-    margin: 100px;
-    height: 100px;
-}
-#my3{
-    margin: 100px;
-    height: 100px;
+.heading{
+    text-decoration: underline;
 }
