@@ -1,0 +1,58 @@
+<HTML>
+    <head>
+        <title>Student  registration</title>
+        <link rel = "stylesheet" href ="studentreg.css">
+    </head>
+    <body>
+        <h1 id ="studentRegistration"> STUDENT REGISTRATION</h1>
+        <script src = "studentreg.js"></script>
+        <form nanme = "registration">
+        <div id="StudentName">
+            <h2 id ="StudentNameh2">Student Name</h2>
+            <input required type="text" value="" id="StudentNameInput" placeholder="Enter your name" required>
+        </div>
+        <div id="EmailAdress">
+            <h2 id ="EmailAdressh2">Student Email Address</h2>
+            <input required type="text" value="" id="EmailAdressInput" placeholder="Enter your EmailAddress">
+        </div>
+        <div id="MobileNumber">
+            <h2 id ="MobileNumberh2">Mobile Number</h2>
+            <input required type="number" value="" id="MobileNumberInput" placeholder="Enter your Mobile Number" maxlength="10">
+        </div>
+        <div id="DOB">
+            <h2 id ="DOBh2">Date Of Birth</h2>
+            <input type="date" value="" id="DOBInput" required>
+        </div>
+        <div id="gender">
+            <h2 id ="genderh2">Gender</h2>
+            <input type="radio" value="male" name="genderM" checked id="rad">male
+            <input type="radio" value="Female" name="genderM" id="rad">Female
+        </div>  
+        <div id="Select">
+            <h2>Select your cousrse </h2>
+            <select id="Selectid" required>
+                <option value = "Btech ">Btech</option>
+                <option value = "Bpharma">Bpharma</option>
+            </select>
+        </div>  
+        <div id="Adress">
+            <h2 id ="Adressh2">Address</h2>
+            <textarea rows = "6" cols = "20" required id = "address"></textarea>
+            <!-- <input type="text" value="" id="AdressInput" placeholder="enter your Adress"> -->
+        </div>
+        <div id="Password">
+            <h2 id = "Passwordh2"> Password</h2>
+            <input required type="password" value="" id="PasswordInput" placeholder="enter your passkey">
+        </div>
+        <div id="ConfirmPassword">
+            <h2 id = "ConfirmPasswordh2"> Password</h2>
+            <input required type="password" value="" id="ConfirmPasswordInput" placeholder="enter your passkey">
+        </div>
+        <hr>
+        <div id="RegisterAndReset">
+            <input type="submit" value="Register" id="RegisterInput" onclick="eventRegister(this)">
+            <input type="reset" value="Reset" id="ResetInput" onclick="eventReset(this)">
+        </div>
+        </form>
+    </body>
+</HTML>
