@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wizard Verse | The Ultimate Encyclopedia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="wizard.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">H<span>.</span>P<span>.</span></a>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">&#9776;</label>
+            <nav class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#houses">Houses</a>
+                <a href="#characters">Characters</a>
+                <a href="#timeline">Timeline</a>
+                <a href="#creatures">Creatures</a>
+                <a href="#spells">Spells</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="acceptance-letter">
+                <div class="letter-crest">
+                    <img src="assets/hogwarts-logo.png" alt="Hogwarts crest">
+                </div>
+                <p class="letter-school">Hogwarts School of Witchcraft and Wizardry</p>
+                <p class="letter-dear">Dear Visitor,</p>
+                <p class="letter-body">We are pleased to inform you that you have been accepted at <strong>Hogwarts School of Witchcraft and Wizardry</strong>. Please find enclosed a list of all necessary enchantments, ancient houses, and legendary figures awaiting your discovery within <em>Wizard Verse</em>.</p>
+                <p class="letter-body">Term begins upon your arrival. We await your owl—or your scroll—by no later than midnight.</p>
+                <p class="letter-sign">Yours sincerely,</p>
+                <p class="letter-name">Minerva McGonagall</p>
+                <p class="letter-title">Deputy Headmistress</p>
+                <div class="letter-seal" aria-hidden="true"><span>H</span></div>
+            </div>
+            <h1>Wizard Verse</h1>
+            <p>Discover the legendary characters, ancient houses, and dark secrets of Hogwarts.</p>
+            <a href="#characters" class="btn-primary">Explore Characters</a>
+        </div>
+    </section>
+
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <h2 class="section-title">About Hogwarts</h2>
+            <div class="glass-box">
+                <p>Hogwarts School of Witchcraft and Wizardry is the British wizarding school, located in the Scottish Highlands. It takes students from Great Britain and Ireland. The school is considered to be one of the finest magical institutions in the wizarding world. The castle is supported by magic and boasts shifting staircases, hidden secrets, and a rich, storied history.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="houses" class="houses section-padding">
+        <div class="container">
+            <h2 class="section-title">Hogwarts Houses</h2>
+            <div class="grid-4">
+                <div class="house-card gryffindor-card">
+                    <img src="assets/gryffindor.png" alt="Gryffindor crest" class="house-crest">
+                    <h3>Gryffindor</h3>
+                    <p>Bravery, daring, nerve, and chivalry.</p>
+                </div>
+                <div class="house-card slytherin-card">
+                    <img src="assets/slytherin.png" alt="Slytherin crest" class="house-crest">
+                    <h3>Slytherin</h3>
+                    <p>Ambition, cunning, leadership, and resourcefulness.</p>
+                </div>
+                <div class="house-card ravenclaw-card">
+                    <img src="assets/ravenclaw.png" alt="Ravenclaw crest" class="house-crest">
+                    <h3>Ravenclaw</h3>
+                    <p>Intelligence, learning, wisdom and wit.</p>
+                </div>
+                <div class="house-card hufflepuff-card">
+                    <img src="assets/hufflepuff.png" alt="Hufflepuff crest" class="house-crest">
+                    <h3>Hufflepuff</h3>
+                    <p>Hard work, patience, justice, and loyalty.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="characters" class="characters section-padding">
+        <div class="container">
+            <h2 class="section-title">Iconic Characters</h2>
+            <div class="grid-3">
+                
+                <div class="char-card">
+                    <div class="img-wrapper">
+                        <img src="assets/harry.png" alt="Harry Potter">
+                    </div>
+                    <div class="char-info">
+                        <span class="badge b-gryffindor">Gryffindor</span>
+                        <h3>Harry Potter</h3>
+                        <p>The central character of the globally beloved fantasy series, known as "The Boy Who Lived."</p>
+                        <a href="#modal-harry" class="btn-outline">Read More</a>
+                    </div>
+                </div>
+
+                <div class="char-card">
+                    <div class="img-wrapper">
+                        <img src="assets/ron.png" alt="Ron Weasley">
+                    </div>
+                    <div class="char-info">
+                        <span class="badge b-gryffindor">Gryffindor</span>
+                        <h3>Ron Weasley</h3>
+                        <p>Harry Potter's loyal best friend, known for his bravery, humor, and heart.</p>
+                        <a href="#modal-ron" class="btn-outline">Read More</a>
+                    </div>
+                </div>
+
+                <div class="char-card">
+                    <div class="img-wrapper">
+                        <img src="assets/hermione.png" alt="Hermione Granger">
+                    </div>
+                    <div class="char-info">
+                        <span class="badge b-gryffindor">Gryffindor</span>
+                        <h3>Hermione Granger</h3>
+                        <p>A brilliant young witch whose intelligence and diligence repeatedly save her friends.</p>
+                        <a href="#modal-hermione" class="btn-outline">Read More</a>
+                    </div>
+                </div>
+
+                <div class="char-card">
+                    <div class="img-wrapper">
+                        <img src="assets/hagrid.png" alt="Rubeus Hagrid">
+                    </div>
+                    <div class="char-info">
+                        <span class="badge b-gryffindor">Gryffindor</span>
+                        <h3>Rubeus Hagrid</h3>
+                        <p>The gentle half-giant, Keeper of Keys and Grounds at Hogwarts.</p>
+                        <a href="#modal-hagrid" class="btn-outline">Read More</a>
+                    </div>
+                </div>
+
+                <div class="char-card">
+                    <div class="img-wrapper">
+                        <img src="assets/dumbledore.png" alt="Albus Dumbledore">
+                    </div>
+                    <div class="char-info">
+                        <span class="badge b-gryffindor">Gryffindor</span>
+                        <h3>Albus Dumbledore</h3>
+                        <p>The wise and compassionate headmaster of Hogwarts School of Witchcraft and Wizardry.</p>
+                        <a href="#modal-dumbledore" class="btn-outline">Read More</a>
+                    </div>
+                </div>
+
+                <div class="char-card">
+                    <div class="img-wrapper">
+                        <img src="assets/voldemort.png" alt="Lord Voldemort">
+                    </div>
+                    <div class="char-info">
+                        <span class="badge b-slytherin">Slytherin</span>
+                        <h3>Lord Voldemort</h3>
+                        <p>The primary antagonist, formerly Tom Riddle, driven by a quest for power and immortality.</p>
+                        <a href="#modal-voldemort" class="btn-outline">Read More</a>
+                    </div>
+                </div>
+
+                <div class="char-card">
+                    <div class="img-wrapper">
+                        <img src="assets/snape.png" alt="Severus Snape">
+                    </div>
+                    <div class="char-info">
+                        <span class="badge b-slytherin">Slytherin</span>
+                        <h3>Severus Snape</h3>
+                        <p>The complex Potions Master whose true loyalties are masked by a harsh exterior.</p>
+                        <a href="#modal-snape" class="btn-outline">Read More</a>
+                    </div>
+                </div>
+
+                <div class="char-card">
+                    <div class="img-wrapper">
+                        <img src="assets/mcgonagall.png" alt="Minerva McGonagall">
+                    </div>
+                    <div class="char-info">
+                        <span class="badge b-gryffindor">Gryffindor</span>
+                        <h3>Minerva McGonagall</h3>
+                        <p>The strict, yet deeply caring Transfiguration professor and head of Gryffindor.</p>
+                        <a href="#modal-mcgonagall" class="btn-outline">Read More</a>
+                    </div>
+                </div>
+
+                <div class="char-card">
+                    <div class="img-wrapper">
+                        <img src="assets/sirius.png" alt="Sirius Black">
+                    </div>
+                    <div class="char-info">
+                        <span class="badge b-gryffindor">Gryffindor</span>
+                        <h3>Sirius Black</h3>
+                        <p>Harry Potter's godfather, known for his rebellious spirit and deep loyalty.</p>
+                        <a href="#modal-sirius" class="btn-outline">Read More</a>
+                    </div>
+                </div>
+
+                <div class="char-card">
+                    <div class="img-wrapper">
+                        <img src="assets/draco.png" alt="Draco Malfoy">
+                    </div>
+                    <div class="char-info">
+                        <span class="badge b-slytherin">Slytherin</span>
+                        <h3>Draco Malfoy</h3>
+                        <p>Harry's school rival, burdened by his family's dark legacy and expectations.</p>
+                        <a href="#modal-draco" class="btn-outline">Read More</a>
+                    </div>
+                </div>
+
+                <div class="char-card">
+                    <div class="img-wrapper">
+                        <img src="assets/ginny.png" alt="Ginny Weasley">
+                    </div>
+                    <div class="char-info">
+                        <span class="badge b-gryffindor">Gryffindor</span>
+                        <h3>Ginny Weasley</h3>
+                        <p>The youngest Weasley sibling, who grows into a strong, confident, and fierce witch.</p>
+                        <a href="#modal-ginny" class="btn-outline">Read More</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="timeline" class="timeline section-padding">
+        <div class="container">
+            <h2 class="section-title">Story Timeline</h2>
+            <p class="section-intro">The seven-book saga follows Harry Potter from infancy through his school years at Hogwarts, as he uncovers the truth about Lord Voldemort and the prophecy that binds them together.</p>
+            <div class="timeline-container">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-box">
+                        <h3>31 July 1980</h3>
+                        <p>Harry James Potter is born to James and Lily Potter in Godric's Hollow. A prophecy made earlier that year identifies a child born in late July as the one with the power to defeat Lord Voldemort.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-box">
+                        <h3>31 October 1981</h3>
+                        <p>On Hallowe'en night, Voldemort murders James and Lily Potter but fails to kill their infant son. His Killing Curse rebounds, destroying his own body and leaving Harry with a lightning-bolt scar. Harry becomes known throughout the wizarding world as "The Boy Who Lived."</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-box">
+                        <h3>1991 — First Year</h3>
+                        <p>On his eleventh birthday, Harry learns he is a wizard and begins his first year at Hogwarts. He befriends Ron Weasley and Hermione Granger, is sorted into Gryffindor, and stops Professor Quirrell from stealing the Philosopher's Stone for Voldemort.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-box">
+                        <h3>1992 — Second Year</h3>
+                        <p>The Chamber of Secrets is opened and students are petrified. Harry enters the chamber, slays the Basilisk with the Sword of Gryffindor, and destroys Tom Riddle's diary — the first of Voldemort's Horcruxes.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-box">
+                        <h3>1993 — Third Year</h3>
+                        <p>Sirius Black escapes Azkaban and is revealed to be innocent. Harry learns that Peter Pettigrew betrayed his parents to Voldemort. Sirius offers Harry a home, but Pettigrew escapes and Sirius goes on the run.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-box">
+                        <h3>1994 — Fourth Year</h3>
+                        <p>Harry is entered into the Triwizard Tournament against his will. At the graveyard in Little Hangleton, Voldemort uses Harry's blood to regain a physical body and returns to full power before the wizarding world.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-box">
+                        <h3>1995 — Fifth Year</h3>
+                        <p>The Ministry of Magic denies Voldemort's return. Harry forms Dumbledore's Army to teach practical Defence. A battle at the Department of Mysteries ends with Sirius Black's death and the prophecy orb destroyed.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-box">
+                        <h3>1996 — Sixth Year</h3>
+                        <p>Dumbledore teaches Harry about Voldemort's past and Horcruxes. Draco Malfoy is tasked with killing Dumbledore; Severus Snape completes the deed atop the Astronomy Tower. Harry vows to find and destroy the remaining Horcruxes.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-box">
+                        <h3>1997–1998 — Final Hunt</h3>
+                        <p>Harry, Ron, and Hermione leave Hogwarts to hunt Horcruxes across Britain. They destroy the remaining objects, learn of Snape's true loyalty, and return to Hogwarts for the final stand.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-box">
+                        <h3>2 May 1998</h3>
+                        <p>The Battle of Hogwarts erupts as Voldemort's forces attack the castle. Harry surrenders himself in the Forbidden Forest, survives, and defeats Voldemort once and for all in the Great Hall. The Second Wizarding War ends.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="creatures" class="creatures section-padding">
+        <div class="container">
+            <h2 class="section-title">Magical Creatures</h2>
+            <div class="grid-4">
+                <div class="glass-box text-center">
+                    <h3>Hippogriff</h3>
+                    <p>Proud creatures, half-eagle, half-horse.</p>
+                </div>
+                <div class="glass-box text-center">
+                    <h3>House-Elf</h3>
+                    <p>Loyal magical beings bound to wizard families.</p>
+                </div>
+                <div class="glass-box text-center">
+                    <h3>Acromantula</h3>
+                    <p>Giant, intelligent, and highly dangerous spiders.</p>
+                </div>
+                <div class="glass-box text-center">
+                    <h3>Thestral</h3>
+                    <p>Winged horses visible only to those who have seen death.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="spells" class="spells section-padding">
+        <div class="container">
+            <h2 class="section-title">Hogwarts Spells</h2>
+            <p class="section-intro">Master the incantations taught in Charms, Transfiguration, and Defence Against the Dark Arts.</p>
+            <div class="grid-4">
+                <div class="glass-box spell-card">
+                    <span class="spell-type spell-charm">Charm</span>
+                    <h3 class="spell-name">Expelliarmus</h3>
+                    <p>Forces an opponent's wand from their hand — Harry's signature defensive spell.</p>
+                </div>
+                <div class="glass-box spell-card">
+                    <span class="spell-type spell-charm">Charm</span>
+                    <h3 class="spell-name">Lumos</h3>
+                    <p>Illuminates the tip of the caster's wand, lighting the darkest corridors of Hogwarts.</p>
+                </div>
+                <div class="glass-box spell-card">
+                    <span class="spell-type spell-charm">Charm</span>
+                    <h3 class="spell-name">Wingardium Leviosa</h3>
+                    <p>Makes objects levitate. Hermione reminds us: "It's Levi-o-sa, not Levio-sa!"</p>
+                </div>
+                <div class="glass-box spell-card">
+                    <span class="spell-type spell-charm">Charm</span>
+                    <h3 class="spell-name">Alohomora</h3>
+                    <p>Unlocks doors and sealed objects — though some enchantments resist it.</p>
+                </div>
+                <div class="glass-box spell-card">
+                    <span class="spell-type spell-charm">Charm</span>
+                    <h3 class="spell-name">Accio</h3>
+                    <p>Summons an object toward the caster, essential in the Triwizard Tournament tasks.</p>
+                </div>
+                <div class="glass-box spell-card">
+                    <span class="spell-type spell-defence">Defence</span>
+                    <h3 class="spell-name">Expecto Patronum</h3>
+                    <p>Conjures a silvery guardian powered by happy memories to repel Dementors.</p>
+                </div>
+                <div class="glass-box spell-card">
+                    <span class="spell-type spell-hex">Hex</span>
+                    <h3 class="spell-name">Stupefy</h3>
+                    <p>Stuns the target, rendering them unconscious without causing lasting harm.</p>
+                </div>
+                <div class="glass-box spell-card">
+                    <span class="spell-type spell-curse">Unforgivable</span>
+                    <h3 class="spell-name">Avada Kedavra</h3>
+                    <p>The Killing Curse — one of three Unforgivable Curses punishable by life in Azkaban.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="quotes section-padding">
+        <div class="container">
+            <h2 class="section-title">Famous Quotes</h2>
+            <div class="quote-box glass-box">
+                <blockquote>"Happiness can be found, even in the darkest of times, if one only remembers to turn on the light."</blockquote>
+                <cite>— Albus Dumbledore</cite>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <h3>Wizard Verse</h3>
+                <p>Designed with HTML & CSS for a modern web portfolio.</p>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#characters">Characters</a>
+                    <a href="#spells">Spells</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+            <p class="copyright">&copy; 2026 Magical Designs. All rights reserved.</p>
+            <p class="made-with-love">Made with love for every witch, wizard, and Muggle who still believes in magic.</p>
+        </div>
+    </footer>
+
+    <div id="modal-harry" class="modal">
+        <div class="modal-box glass-box">
+            <a href="#characters" class="close-btn">&times;</a>
+            <h2>Harry Potter</h2>
+            <p><b>Harry Potter</b> is the central character of a globally beloved fantasy series written by J.K. Rowling. Known as "The Boy Who Lived," he survived an attack from the dark wizard Lord Voldemort as a baby, which left him with a lightning-shaped scar on his forehead. Harry grows up unaware of his magical heritage until he is invited to attend Hogwarts School of Witchcraft and Wizardry, where he learns about magic, forms deep friendships with Ron Weasley and Hermione Granger, and uncovers secrets about his family and destiny. Over seven books, Harry faces numerous challenges, from competing in the dangerous Triwizard Tournament to leading the resistance against Voldemort's return. As he learns about the wizarding world, Harry discovers the importance of loyalty and the power of standing up for what is right, even when the odds are stacked against him.</p>
+            <p>Throughout his journey, Harry grows from an insecure and lonely boy into a courageous leader who inspires others to fight for justice. The series also delves into the complex relationships between characters, including Harry's connection to his mentor, Professor Dumbledore, and his rivalry with Draco Malfoy. From the discovery of the Philosopher's Stone to the final battle at Hogwarts, each adventure contributes to Harry's growth and the ultimate resolution of the battle between good and evil. The magical creatures, intricate lore, and dynamic characters make the Harry Potter series a timeless story that continues to resonate with readers across generations.</p>
+            <a href="https://en.wikipedia.org/wiki/Harry_Potter_(character)" target="_blank" class="wiki-link">Read full Wiki</a>
+        </div>
+    </div>
+
+    <div id="modal-ron" class="modal">
+        <div class="modal-box glass-box">
+            <a href="#characters" class="close-btn">&times;</a>
+            <h2>Ron Weasley</h2>
+            <p><b>Ron Weasley</b> is Harry Potter's loyal best friend and a key character in J.K. Rowling's magical series. As the sixth of seven siblings in the warm but chaotic Weasley family, Ron often struggles with feelings of inadequacy but proves himself to be brave, resourceful, and fiercely loyal. A fellow Gryffindor at Hogwarts School of Witchcraft and Wizardry, Ron stands by Harry through countless challenges, including the hunt for Voldemort's Horcruxes. With his humor, kindness, and courage, Ron brings balance to the trio he shares with Harry and Hermione, playing a vital role in their adventures.</p>
+            <p>Despite his insecurities about living in the shadow of his talented siblings and his modest upbringing, Ron consistently demonstrates his worth by displaying unwavering support for his friends and quick thinking in dire situations. From his skill at Wizard's Chess during their first year to his heroic destruction of a Horcrux locket, Ron's contributions are critical to the trio's success. He also shares a heartwarming romantic arc with Hermione, which grows from bickering friendship into a deep and enduring love.</p>
+            <p>Ron’s journey is one of self-discovery and acceptance, as he learns to overcome his fears and embrace his unique qualities. His humor and down-to-earth nature provide moments of levity amidst the dark and dangerous times they face, making him a beloved and relatable character in the series. Through Ron, readers are reminded of the importance of loyalty, family, and friendship in overcoming life's greatest challenges.</p>
+            <a href="https://en.wikipedia.org/wiki/Ron_Weasley" target="_blank" class="wiki-link">Read full Wiki</a>
+        </div>
+    </div>
+
+    <div id="modal-hermione" class="modal">
+        <div class="modal-box glass-box">
+            <a href="#characters" class="close-btn">&times;</a>
+            <h2>Hermione Granger</h2>
+            <p><b>Hermione Granger</b> is one of Harry Potter's closest friends and a brilliant young witch in J.K. Rowling's series. Born to non-magical parents, Hermione's intelligence, diligence, and love for learning quickly make her the top student at Hogwarts School of Witchcraft and Wizardry. Her resourcefulness and vast knowledge often save her friends in dire situations, proving her indispensable in their fight against Voldemort. Despite her perfectionist nature, Hermione is deeply caring and fiercely loyal, forming an unbreakable bond with Harry and Ron as they face countless challenges together.</p>
+            <p>Beyond her academic prowess, Hermione demonstrates remarkable courage and determination, often risking her own safety to protect others. She is the driving force behind many of the trio’s plans, from brewing Polyjuice Potion in their second year to devising strategies for finding and destroying Voldemort’s Horcruxes. Hermione’s activism and compassion are also evident in her founding of S.P.E.W. (Society for the Promotion of Elfish Welfare), showcasing her desire to fight for justice and equality in the wizarding world.</p>
+            <p>As the series progresses, Hermione grows into a confident and powerful witch, balancing her logical mind with her strong emotional connections. Her relationship with Ron evolves from playful bickering to a deep and heartfelt romance, adding layers to her character. Hermione’s unwavering moral compass, sharp intellect, and bravery make her an iconic and inspiring character, showing readers that true strength comes from both the mind and the heart.</p>
+            <a href="https://en.wikipedia.org/wiki/Hermione_Granger" target="_blank" class="wiki-link">Read full Wiki</a>
+        </div>
+    </div>
+
+    <div id="modal-hagrid" class="modal">
+        <div class="modal-box glass-box">
+            <a href="#characters" class="close-btn">&times;</a>
+            <h2>Rubeus Hagrid</h2>
+            <p><b>Rubeus Hagrid</b> is a beloved character in J.K. Rowling's Harry Potter series, known for his kind heart, immense loyalty, and love for magical creatures. As the Keeper of Keys and Grounds at Hogwarts School of Witchcraft and Wizardry, Hagrid plays a vital role in introducing Harry to the magical world and becomes one of his first and most trusted friends. Despite his intimidating size as a half-giant, Hagrid is gentle and compassionate, often caring for misunderstood creatures like Buckbeak the Hippogriff and Aragog the Acromantula. His unwavering faith in the goodness of others and his bravery are evident throughout the series, as he risks his own safety to protect those he cares about. Hagrid’s hut on the edge of the Forbidden Forest becomes a place of comfort and guidance for Harry, Ron, and Hermione during their adventures. His deep connection to both nature and the magical community reflects the importance of harmony and understanding in a divided world.</p>
+            <a href="https://en.wikipedia.org/wiki/Rubeus_Hagrid" target="_blank" class="wiki-link">Read full Wiki</a>
+        </div>
+    </div>
+
+    <div id="modal-dumbledore" class="modal">
+        <div class="modal-box glass-box">
+            <a href="#characters" class="close-btn">&times;</a>
+            <h2>Albus Dumbledore</h2>
+            <p><b>Albus Dumbledore</b> is the wise and compassionate headmaster of Hogwarts School of Witchcraft and Wizardry in J.K. Rowling's Harry Potter series. Renowned as one of the most powerful and knowledgeable wizards, Dumbledore is a mentor to Harry, guiding him in his fight against Lord Voldemort. Despite his wisdom, he carries a tragic past and secrets that reveal his vulnerabilities. Dumbledore values love, bravery, and the power of choice, embodying the series moral core. His guidance and sacrifices play a pivotal role in Harry's journey to defeat darkness and restore hope to the wizarding world.</p>
+            <p>Beneath his calm and enigmatic exterior, Dumbledore's character is layered with complexity. His past, particularly his relationship with his family and his youthful friendship with Gellert Grindelwald, shapes his belief in the importance of power being tempered with responsibility and humility. His willingness to admit his own mistakes and learn from them serves as a powerful example to those around him.</p>
+            <p>Throughout the series, Dumbledore's wisdom is conveyed through profound and thought-provoking quotes that inspire readers and characters alike. Whether through his faith in the resilience of the human spirit or his understanding of the sacrifices needed to overcome evil, Dumbledore leaves an enduring legacy. Even in death, his presence continues to guide Harry, illustrating the lasting influence of a mentor's teachings.</p>
+            <p>Dumbledore’s blend of intellect, compassion, and humanity makes him one of the most iconic and beloved characters in the Harry Potter universe.</p>
+            <a href="https://en.wikipedia.org/wiki/Albus_Dumbledore" target="_blank" class="wiki-link">Read full Wiki</a>
+        </div>
+    </div>
+
+    <div id="modal-voldemort" class="modal">
+        <div class="modal-box glass-box">
+            <a href="#characters" class="close-btn">&times;</a>
+            <h2>Lord Voldemort</h2>
+            <p><b>Lord Voldemort</b>, born as Tom Riddle, is the primary antagonist in the Harry Potter series, known for his quest for power and immortality. Raised in an orphanage and unaware of his magical heritage, Voldemort's rise to power is marked by his desire to purify the wizarding world by eliminating Muggle-borns and anyone he deems unworthy. He creates Horcruxes to split his soul and achieve immortality, making him nearly invincible. His terrifying influence and cruelty strike fear into the wizarding world, as he and his followers, the Death Eaters, wreak havoc. Voldemort's obsession was defeating Harry Potter, the child prophesied to bring about his downfall, becomes central to the plot. His character represents the dangers of absolute power, fear, and the dehumanization that comes with it.</p>
+            <p>Voldemort's descent into darkness begins at a young age, as he discovers his magical abilities and uses them to manipulate and harm others. Even as a student at Hogwarts, where he excels academically and gains the trust of many professors, he harbors a deep resentment toward his Muggle father and a desire for control. He begins to explore dark magic, seeking ways to become immortal, which leads to the creation of his Horcruxes—a process that involves the murder of others and a deliberate fragmentation of his soul.</p>
+            <p>Voldemort’s character is defined by his inability to feel compassion, empathy, or love, which ultimately becomes his greatest weakness. While he perceives these qualities as weaknesses in others, they are the very traits that enable Harry and his allies to prevail against him.</p>
+            <p>Despite his brilliance and magical prowess, Voldemort’s arrogance and inability to trust others leave him isolated, even among his followers. This contrasts sharply with the loyalty and friendship shared by Harry and his allies, further emphasizing the themes of love and unity that permeate the series. Voldemort’s ultimate defeat is not merely a physical battle but a moral and symbolic one, representing the triumph of selflessness, courage, and love over hatred and fear.</p>
+            <a href="https://en.wikipedia.org/wiki/Lord_Voldemort" target="_blank" class="wiki-link">Read full Wiki</a>
+        </div>
+    </div>
+
+    <div id="modal-snape" class="modal">
+        <div class="modal-box glass-box">
+            <a href="#characters" class="close-btn">&times;</a>
+            <h2>Severus Snape</h2>
+            <p><b>Severus Snape</b> is one of the most complex characters in the Harry Potter series. Initially portrayed as harsh and antagonistic, Snape serves as the Potions Master and later Defense Against the Dark Arts professor at Hogwarts. Although he displays open hostility toward Harry Potter, his true motivations and loyalties are revealed to be deeply rooted in his love for Lily Potter, Harry's mother. Once a Death Eater, Snape switches allegiances after Lily's death, becoming a double agent for Dumbledore and working tirelessly to protect Harry, often at great personal risk.</p>
+            <p>Snape’s troubled childhood and unrequited love for Lily shape his bitter and guarded demeanor. Despite his flaws and resentment toward Harry, who reminds him of James Potter, Snape consistently acts to aid him in the fight against Voldemort. His greatest sacrifice comes when he provides crucial information to ensure Voldemort’s defeat, with his true heroism revealed after his death.</p>
+            <p>The revelation of his enduring love for Lily and the memory of his patronus—a silver doe—solidify Snape’s role as a tragic yet pivotal figure. Harry later honors him by naming one of his sons Albus Severus, recognizing him as “the bravest man he ever knew.” Snape’s story of redemption and sacrifice highlights the complexities of human nature and the power of love.</p>
+            <a href="https://en.wikipedia.org/wiki/Severus_Snape" target="_blank" class="wiki-link">Read full Wiki</a>
+        </div>
+    </div>
+
+    <div id="modal-mcgonagall" class="modal">
+        <div class="modal-box glass-box">
+            <a href="#characters" class="close-btn">&times;</a>
+            <h2>Minerva McGonagall</h2>
+            <p><b>Minerva McGonagall</b> is a highly respected character in the Harry Potter series, known for her strict yet caring nature. As the head of Gryffindor House and the Transfiguration professor at Hogwarts School of Witchcraft and Wizardry, she plays a vital role in shaping the students' magical education. A fierce and skilled witch, McGonagall is a staunch supporter of Harry Potter and his friends, often going to great lengths to protect them. She is also known for her ability to transform into a cat, showcasing her mastery of Transfiguration. McGonagall's unwavering sense of justice and loyalty to Hogwarts make her a crucial figure in the fight against Lord Voldemort, and she serves as a steady source of wisdom and strength for both students and staff.</p>
+            <p>Beyond her firm exterior, McGonagall has a deep sense of compassion and care for her students, particularly during times of crisis. She displays incredible bravery and resilience, leading the defense of Hogwarts during the Battle of Hogwarts and standing firm against the forces of evil. Her quick thinking and commanding presence make her a natural leader, earning the respect and admiration of both her colleagues and students.</p>
+            <p>McGonagall’s backstory adds depth to her character, revealing her struggles as a young witch torn between her magical and Muggle heritage. Her dedication to teaching and her fierce love for Hogwarts reflect her commitment to the next generation of witches and wizards. Despite her no-nonsense demeanor, she has moments of wit and warmth, endearing her to readers and fans of the series.</p>
+            <p>As a mentor, protector, and leader, McGonagall exemplifies strength, integrity, and wisdom, making her one of the most iconic and beloved figures in the wizarding world.</p>
+            <a href="https://en.wikipedia.org/wiki/Minerva_McGonagall" target="_blank" class="wiki-link">Read full Wiki</a>
+        </div>
+    </div>
+
+    <div id="modal-sirius" class="modal">
+        <div class="modal-box glass-box">
+            <a href="#characters" class="close-btn">&times;</a>
+            <h2>Sirius Black</h2>
+            <p><b>Sirius Black</b> is a key character in the Harry Potter series, known for his rebellious spirit and deep loyalty to his friends. A member of Gryffindor House at Hogwarts School of Witchcraft and Wizardry, Sirius is best known as Harry Potter's godfather. Initially believed to be a traitor and imprisoned for the betrayal of Harry's parents, Sirius is later revealed to be innocent, having been wrongly accused. With his charismatic and daring personality, he becomes a father figure to Harry, offering guidance and support in the fight against Lord Voldemort. Despite his tragic past, Sirius remains fiercely loyal to his friends and is willing to sacrifice everything for the greater good. His untimely death marks a pivotal moment in Harry's journey, symbolizing the harsh realities of the battle between good and evil.</p>
+            <p>Sirius comes from the ancient and aristocratic Black family, a lineage that prides itself on its pure-blood wizarding heritage. However, he defies his family's beliefs, rejecting their prejudice against Muggles and Muggle-borns, which leads to his estrangement from them. This rebellious streak further highlights his commitment to justice and equality, as he finds a true family in his friends, particularly James Potter, Remus Lupin, and Peter Pettigrew, with whom he forms the Marauders at Hogwarts.</p>
+            <p>As an Animagus, Sirius transforms into a large black dog, earning him the nickname "Padfoot." This ability not only showcases his magical skill but also aids in his loyalty to his friends, particularly during the time he helps Remus Lupin during his transformations into a werewolf. After escaping the unjust confines of Azkaban, Sirius becomes a key figure in the Order of the Phoenix, dedicating himself to fighting against Voldemort’s resurgence.</p>
+            <p>Sirius’s relationship with Harry is deeply emotional, as he provides Harry with a sense of family and belonging, something Harry has longed for his entire life. Despite his recklessness and tendency to act on impulse, Sirius's love for Harry is undeniable, and he consistently puts Harry's safety and well-being above his own. His death at the hands of Bellatrix Lestrange in the Department of Mysteries is a devastating loss, representing the cost of war and the sacrifices made by those fighting for a better world.</p>
+            <p>Sirius Black’s legacy is one of courage, loyalty, and defiance in the face of oppression, making him a complex and memorable character in the Harry Potter series.</p>
+            <a href="https://en.wikipedia.org/wiki/Sirius_Black" target="_blank" class="wiki-link">Read full Wiki</a>
+        </div>
+    </div>
+
+    <div id="modal-draco" class="modal">
+        <div class="modal-box glass-box">
+            <a href="#characters" class="close-btn">&times;</a>
+            <h2>Draco Malfoy</h2>
+            <p><b>Draco Malfoy</b> is a prominent character in the Harry Potter series, known for his rivalry with Harry Potter. As a student at Hogwarts School of Witchcraft and Wizardry, Draco is sorted into Slytherin and often embodies the qualities of his house, such as ambition and a sense of superiority. Raised in a family that supports Lord Voldemort, Draco initially displays arrogance and prejudice, often bullying Harry and his friends. However, as the series progresses, his character becomes more complex, struggling with his loyalty to his family and his growing awareness of the consequences of his actions. Despite his flaws, Draco's journey highlights the themes of redemption and the power of choice.</p>
+            <p>Draco is heavily influenced by his parents, Lucius and Narcissa Malfoy, who instill in him a strong belief in pure-blood superiority and allegiance to the Dark Lord. This upbringing shapes his early interactions at Hogwarts, where he seeks to assert his status and align himself with powerful allies. However, beneath his confident and condescending exterior lies a young boy burdened by the expectations of his family and the fear of failure.</p>
+            <p>As the war against Voldemort intensifies, Draco is forced into increasingly dangerous situations, including his task to assassinate Albus Dumbledore. His hesitance and visible distress during these moments reveal his inner turmoil and reluctance to embrace the darkness thrust upon him. Rather than being inherently cruel, Draco's actions often stem from fear and the pressures of living up to his family's legacy.</p>
+            <p>Despite his antagonistic behavior toward Harry, there are glimpses of Draco's potential for change, especially in the later years. By the end of the series, his survival and decision to walk away from Voldemort's ideology suggest a shift in his character, as he begins to prioritize the safety of his family over blind loyalty to the Dark Lord.</p>
+            <p>Draco’s story arc serves as a reminder that people are shaped by their circumstances, but they also possess the ability to make different choices. His evolution from an arrogant bully to a more reflective and conflicted individual adds depth to his character, making him one of the more nuanced figures in the Harry Potter series.</p>
+            <a href="https://en.wikipedia.org/wiki/Draco_Malfoy" target="_blank" class="wiki-link">Read full Wiki</a>
+        </div>
+    </div>
+
+    <div id="modal-ginny" class="modal">
+        <div class="modal-box glass-box">
+            <a href="#characters" class="close-btn">&times;</a>
+            <h2>Ginny Weasley</h2>
+            <p><b>Ginny Weasley</b> is a central character in the Harry Potter series, known for her courage, determination, and fierce loyalty to her family and friends. The youngest of the Weasley siblings, Ginny starts off as a shy and sweet girl but grows into a strong and confident witch as the series progresses. She is a talented witch, excelling in various magical subjects, and becomes an important member of Dumbledore's Army, fighting against Lord Voldemort and his followers. Ginny develops a romantic relationship with Harry Potter, and their bond deepens as they face numerous challenges together. Ginny is not only a skilled Quidditch player but also a natural leader, showing her strength and resilience, particularly during the Battle of Hogwarts. Her character represents the themes of personal growth and bravery, as she plays a key role in the fight for good.</p>
+            <p>Ginny's journey is marked by her ability to overcome personal struggles and rise to meet challenges with remarkable courage. Her experience with Tom Riddle's diary in her first year at Hogwarts is a defining moment, as she manages to recover from a traumatic ordeal and emerge stronger than ever. This resilience becomes a hallmark of her character, enabling her to face danger with unwavering determination.</p>
+            <p>In addition to her magical abilities, Ginny's wit and fiery personality make her stand out. She often displays a sharp sense of humor and an unyielding spirit, whether she’s standing up to her brothers or facing the threats posed by Voldemort’s forces. Her confidence and self-assuredness grow throughout the series, earning her respect from friends and allies alike.</p>
+            <p>As a skilled Chaser and later Seeker for the Gryffindor Quidditch team, Ginny’s athletic talent and competitive nature further demonstrate her drive and tenacity. After the war, she goes on to play Quidditch professionally for the Holyhead Harpies, fulfilling her dreams and showcasing her independence.</p>
+            <p>Ginny’s role as a supportive sister and friend adds depth to her character. She is deeply loyal to her family, often offering encouragement and standing by them during their darkest moments. Her relationship with Harry is built on mutual respect and understanding, and she becomes one of his greatest sources of strength as they both navigate the challenges of war and loss.</p>
+            <p>Ultimately, Ginny Weasley’s character arc is a testament to the power of resilience, love, and bravery, making her an integral part of the Harry Potter series and a source of inspiration for readers.</p>
+            <a href="https://en.wikipedia.org/wiki/Ginny_Weasley" target="_blank" class="wiki-link">Read full Wiki</a>
+        </div>
+    </div>
+
+</body>
+</html>
