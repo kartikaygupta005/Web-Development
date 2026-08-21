@@ -1,0 +1,50 @@
+#studentRegistration{
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#StudentName{
+    display: flex ;
+    align-items: center;
+}
+#EmailAdress{
+    display: flex ;
+    align-items: center;
+}
+#MobileNumber{
+    display: flex ;
+    align-items: center;
+
+}
+#DOB{
+    display: flex ;
+    align-items: center;
+}
+#Select{
+        display: flex ;
+    align-items: center;
+    gap: 10px;
+
+}
+#Adress{
+    display: flex ;
+    align-items: center;
+    gap: 10px;
+}
+#gender{
+    display: flex ;
+    align-items: center;
+    gap: 10px;
+
+}
+#Password{
+    display: flex ;
+    align-items: center;
+    gap: 10px;
+}
+#ConfirmPassword{
+        display: flex ;
+    align-items: center;
+    gap: 10px;    
+}
